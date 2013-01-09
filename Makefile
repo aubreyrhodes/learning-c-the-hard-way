@@ -5,4 +5,4 @@ all:
 	cc $(CFLAGS) ex3.c -o build/ex3
 	cc $(CFLAGS) ex10.c -o build/ex10
 clean:
-	rm -f build/*
+	rm -rf build/*
